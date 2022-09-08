@@ -1,0 +1,152 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "element":{
+                "title":"text",
+                "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "modal":true
+            }
+    },
+    "online":{
+        "builder":true,
+        "name":"Online Section",
+        "content":{
+            "images":{
+                "background_image":{
+                    "size":"1920x458"
+                },
+                "wave":{
+                    "size":"150x146"
+                }
+            },
+            "heading":"text",
+            "sub_heading":"text"
+        }
+    },
+    "schedule":{
+        "builder":true,
+        "name":"Schedule Section",
+        "content":{
+            "title":"text",
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            }
+        }
+    },
+    "event":{
+        "builder":true,
+        "name":"Event Section",
+        "content":{
+            "title":"text",
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            }
+        }
+    },
+    "radio_jockey":{
+        "builder":true,
+        "name":"Radio Jockey Section",
+        "content":{
+            "title":"text",
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            }
+        }
+    },
+    "brand":{
+        "builder":true,
+        "name":"Brand Section",
+        "content":{
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "title":"text",
+            "description":"textarea"
+        },
+        "element":{
+            "images":{
+                "brand":{
+                    "size":"600x600"
+                }
+            },
+            "modal":true
+        }
+    },
+
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "policy": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Policy Section",
+        "element": {
+            "title": "text",
+            "description": "textarea-nic",
+            "modal": false
+        }
+    },
+
+    "breadcrumb": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Breadcrumb Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            }
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "email_address": "text",
+            "contact_details": "text",
+            "contact_number": "text"
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "description":"textarea"
+        }
+    }
+}
